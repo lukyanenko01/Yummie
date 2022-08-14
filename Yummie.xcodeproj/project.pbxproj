@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1808D94D28A8E1D4005CBA69 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1808D94C28A8E1D4005CBA69 /* HomeViewController.swift */; };
 		18E1235428A79A450063AC75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1235328A79A450063AC75 /* AppDelegate.swift */; };
 		18E1235628A79A450063AC75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1235528A79A450063AC75 /* SceneDelegate.swift */; };
 		18E1235B28A79A450063AC75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E1235928A79A450063AC75 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1808D94C28A8E1D4005CBA69 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		18E1235028A79A450063AC75 /* Yummie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yummie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E1235328A79A450063AC75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18E1235528A79A450063AC75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1808D94B28A8E1B3005CBA69 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1808D94C28A8E1D4005CBA69 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		18E1234728A79A450063AC75 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +97,7 @@
 		18E1236828A7A0420063AC75 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				1808D94B28A8E1B3005CBA69 /* Home */,
 				18E1236A28A7A0880063AC75 /* Onbording */,
 			);
 			path = Views;
@@ -192,6 +203,7 @@
 				18E1239128A7AFC80063AC75 /* OnboaringSlide.swift in Sources */,
 				18E1235428A79A450063AC75 /* AppDelegate.swift in Sources */,
 				18E1239328A7B3380063AC75 /* OnboaringCollectionViewCell.swift in Sources */,
+				1808D94D28A8E1D4005CBA69 /* HomeViewController.swift in Sources */,
 				18E1235628A79A450063AC75 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

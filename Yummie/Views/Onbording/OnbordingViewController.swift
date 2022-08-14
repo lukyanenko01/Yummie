@@ -35,6 +35,8 @@ class OnbordingViewController: UIViewController {
             OnboaringSlide(title: "Instant World-Wide Delivery", description: "Your orders will be delivered instantly irrespective of your location around the world.", image: #imageLiteral(resourceName: "slide3"))
         ]
         
+        pageControl.numberOfPages = slides.count
+        
         collectionView.delegate = self
         collectionView.dataSource = self
 
