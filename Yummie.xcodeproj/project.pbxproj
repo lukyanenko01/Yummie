@@ -23,6 +23,8 @@
 		184CB3BF28AA68A400836ADD /* DishListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184CB3BD28AA68A400836ADD /* DishListTableViewCell.swift */; };
 		184CB3C028AA68A400836ADD /* DishListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 184CB3BE28AA68A400836ADD /* DishListTableViewCell.xib */; };
 		184CB3C328AA6C4700836ADD /* ListDishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184CB3C228AA6C4700836ADD /* ListDishViewController.swift */; };
+		184CB3C628AA730600836ADD /* ListOrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184CB3C528AA730600836ADD /* ListOrdersViewController.swift */; };
+		184CB3C828AA75F000836ADD /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184CB3C728AA75F000836ADD /* Order.swift */; };
 		188DAA87B61114DFA8B044F5 /* Pods_Yummie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB42FB85E09355408F2F432D /* Pods_Yummie.framework */; };
 		18E1235428A79A450063AC75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1235328A79A450063AC75 /* AppDelegate.swift */; };
 		18E1235628A79A450063AC75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1235528A79A450063AC75 /* SceneDelegate.swift */; };
@@ -53,6 +55,8 @@
 		184CB3BD28AA68A400836ADD /* DishListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishListTableViewCell.swift; sourceTree = "<group>"; };
 		184CB3BE28AA68A400836ADD /* DishListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DishListTableViewCell.xib; sourceTree = "<group>"; };
 		184CB3C228AA6C4700836ADD /* ListDishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDishViewController.swift; sourceTree = "<group>"; };
+		184CB3C528AA730600836ADD /* ListOrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOrdersViewController.swift; sourceTree = "<group>"; };
+		184CB3C728AA75F000836ADD /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		18E1235028A79A450063AC75 /* Yummie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yummie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E1235328A79A450063AC75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18E1235528A79A450063AC75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -166,6 +170,14 @@
 			path = ListDishes;
 			sourceTree = "<group>";
 		};
+		184CB3C428AA72EA00836ADD /* ListOrders */ = {
+			isa = PBXGroup;
+			children = (
+				184CB3C528AA730600836ADD /* ListOrdersViewController.swift */,
+			);
+			path = ListOrders;
+			sourceTree = "<group>";
+		};
 		18E1234728A79A450063AC75 = {
 			isa = PBXGroup;
 			children = (
@@ -207,6 +219,7 @@
 				18E1239028A7AFC80063AC75 /* OnboaringSlide.swift */,
 				1808D95628A8F49E005CBA69 /* DishCategory.swift */,
 				184CB3AF28A924A700836ADD /* Dish.swift */,
+				184CB3C728AA75F000836ADD /* Order.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -214,6 +227,7 @@
 		18E1236828A7A0420063AC75 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				184CB3C428AA72EA00836ADD /* ListOrders */,
 				184CB3C128AA6C1F00836ADD /* ListDishes */,
 				184CB3B628AA48D600836ADD /* DishDetail */,
 				1808D94B28A8E1B3005CBA69 /* Home */,
@@ -388,6 +402,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				184CB3BF28AA68A400836ADD /* DishListTableViewCell.swift in Sources */,
+				184CB3C628AA730600836ADD /* ListOrdersViewController.swift in Sources */,
+				184CB3C828AA75F000836ADD /* Order.swift in Sources */,
 				1808D95428A8F256005CBA69 /* CategoryCollectionViewCell.swift in Sources */,
 				18E1238F28A7AE870063AC75 /* UIView + Extension.swift in Sources */,
 				1843B26628A8F7B4001CC257 /* String + Extension.swift in Sources */,
